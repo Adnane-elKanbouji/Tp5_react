@@ -8,6 +8,7 @@ import Slider from "./Compenents/TP2/Slider";
 import Forma_Task from './Compenents/TP3/Forma_Task';
 import Tp4 from './Compenents/TP4/Tp4';
 import NavBar from './Compenents/NavBar/NavBar';
+import PageEror from "./Compenents/PageEror/PageEror"
 
 function App() {
   <img src="./lo" alt="" srcset="" />
@@ -21,6 +22,7 @@ function App() {
     <Route  path='/Tp2' element={<Slider/>}/>
     <Route  path='/Tp3' element={<Forma_Task/>}/>
     <Route  path='/Tp4' element={<Tp4/>}/>
+    <Route  path='*' element={<PageEror/>}/>
 
   </Routes>
 
