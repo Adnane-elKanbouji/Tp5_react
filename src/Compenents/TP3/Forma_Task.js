@@ -47,7 +47,7 @@ const toggleTask=(idp)=>{
       <center><h1>To do list</h1></center>
       <form class="form-inline">
         Entrer une tache :  <br /> <input  class=" form-control" value={task1}  onChange={(e)=>setTask1(e.target.value)} type="text" /> <br /> 
-        <input type="button" class="btn btn-primary" onClick={addTask} value={"Ajouter"}/>
+        <input type="button" class="btn btn-primary btn-sm" onClick={addTask} value={"Ajouter"}/>
       </form>
       <br /><br /><br />
       <ul>

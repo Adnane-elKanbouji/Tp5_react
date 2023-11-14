@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react'
 import axios from 'axios'
 import "./axios.css" 
 
+
 export default function Comp9_useEffeect_Tableau() {
     const [st1,setst1]=useState([])
     const [page,setpage]=useState(1)

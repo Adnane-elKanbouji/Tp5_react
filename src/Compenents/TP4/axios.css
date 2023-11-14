@@ -4,12 +4,11 @@
    height: 300px;
    border: solid black 1px;
    border-radius: 10%;
-   float: left;
-   margin:10% 10%;
+   
+   margin:30% 10%;
 }
 .txt {
-    margin: 7% 0%;
-    float: left;
+    margin:5% 0%;
     border: 1px solid  black ;
     width: 50%;
     padding: 3%;
@@ -23,3 +22,31 @@ li{
     margin: 2%;
      width: 100px;
 }
+.container1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+@media screen and (max-width: 800px) {
+   .container1{
+    display: inline-block;
+   }
+   .txt {
+    margin:0% 10%;
+    
+    width: 80%;
+  
+}
+.btn {
+   width: 30%;
+}
+
+.img-chat{
+    width: 70%;
+    height: 90%;
+  
+    margin:10% 10%;
+    
+ 
+ }
+  }

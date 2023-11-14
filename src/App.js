@@ -14,7 +14,7 @@ function App() {
   <img src="./lo" alt="" srcset="" />
   return (
   <div className='App'>
-    <NavBar/>
+  <NavBar/> 
 
   <Routes>
     <Route  path='/' element={<Home/>}/>
@@ -22,7 +22,7 @@ function App() {
     <Route  path='/Tp2' element={<Slider/>}/>
     <Route  path='/Tp3' element={<Forma_Task/>}/>
     <Route  path='/Tp4' element={<Tp4/>}/>
-    <Route  path='*' element={<PageEror/>}/>
+    <Route path="*" element={<PageEror/>}/>
 
   </Routes>
 
